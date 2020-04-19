@@ -1,0 +1,10 @@
+.home .actions {
+  display: flex;
+}
+.home .actions button:nth-child(2) {
+  margin-left: 5px;
+}
+.home .add-button {
+  margin-top: 5px;
+  margin-left: 5px;
+}

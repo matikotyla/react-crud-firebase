@@ -1,0 +1,46 @@
+.add {
+  text-align: center;
+  margin-top: 20vh;
+}
+.add .add-header {
+  font-size: 50px;
+  font-weight: 300;
+}
+.add .add-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+.add .add-form .title-input,
+.add .add-form .year-input,
+.add .add-form .genre-input,
+.add .add-form .rating-input {
+  margin-top: 20px;
+}
+.add .add-form .title-input p,
+.add .add-form .year-input p,
+.add .add-form .genre-input p,
+.add .add-form .rating-input p {
+  color: #f44336;
+  margin-top: 4px;
+  font-size: 14px;
+  text-align: left;
+}
+.add .add-form .title-input p:empty,
+.add .add-form .year-input p:empty,
+.add .add-form .genre-input p:empty,
+.add .add-form .rating-input p:empty {
+  height: 18px;
+}
+.add .add-form .genre-input {
+  text-align: left;
+}
+.add .add-form .add-form-buttons {
+  margin-top: 20px;
+}
+.add .add-form .add-form-buttons button:nth-child(1) {
+  margin-right: 10px;
+}
+.add .add-form .add-form-buttons a {
+  margin-left: 10px;
+}

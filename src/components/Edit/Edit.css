@@ -1,0 +1,46 @@
+.edit {
+  text-align: center;
+  margin-top: 20vh;
+}
+.edit .edit-header {
+  font-size: 50px;
+  font-weight: 300;
+}
+.edit .edit-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+.edit .edit-form .title-input,
+.edit .edit-form .year-input,
+.edit .edit-form .genre-input,
+.edit .edit-form .rating-input {
+  margin-top: 20px;
+}
+.edit .edit-form .title-input p,
+.edit .edit-form .year-input p,
+.edit .edit-form .genre-input p,
+.edit .edit-form .rating-input p {
+  color: #f44336;
+  margin-top: 4px;
+  font-size: 14px;
+  text-align: left;
+}
+.edit .edit-form .title-input p:empty,
+.edit .edit-form .year-input p:empty,
+.edit .edit-form .genre-input p:empty,
+.edit .edit-form .rating-input p:empty {
+  height: 18px;
+}
+.edit .edit-form .genre-input {
+  text-align: left;
+}
+.edit .edit-form .add-form-buttons {
+  margin-top: 20px;
+}
+.edit .edit-form .add-form-buttons button:nth-child(1) {
+  margin-right: 10px;
+}
+.edit .edit-form .add-form-buttons a {
+  margin-left: 10px;
+}

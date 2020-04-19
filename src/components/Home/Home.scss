@@ -1,0 +1,14 @@
+.home {
+    .actions {
+        display: flex;
+
+        button:nth-child(2) {
+            margin-left: 5px;
+        }
+    }
+
+    .add-button {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
