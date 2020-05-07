@@ -1,0 +1,46 @@
+[debug] [2020-05-07T16:14:14.025Z] ----------------------------------------------------------------------
+[debug] [2020-05-07T16:14:14.028Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\wolde\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-07T16:14:14.028Z] CLI Version:   8.1.1
+[debug] [2020-05-07T16:14:14.028Z] Platform:      win32
+[debug] [2020-05-07T16:14:14.028Z] Node Version:  v12.4.0
+[debug] [2020-05-07T16:14:14.030Z] Time:          Thu May 07 2020 18:14:14 GMT+0200 (Central European Summer Time)
+[debug] [2020-05-07T16:14:14.030Z] ----------------------------------------------------------------------
+[debug] [2020-05-07T16:14:14.030Z] 
+[debug] [2020-05-07T16:14:14.047Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-07T16:14:14.048Z] > authorizing via signed-in user
+[debug] [2020-05-07T16:14:14.048Z] [iam] checking project crud-4e1a7 for permissions ["firebase.projects.get"]
+[debug] [2020-05-07T16:14:14.051Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-07T16:14:14.051Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-07T16:14:14.331Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 07 May 2020 16:14:14 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-07T16:14:14.347Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/crud-4e1a7:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-07T16:14:14.696Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 07 May 2020 16:14:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=152","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-07T16:14:14.697Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/crud-4e1a7  
+ 
+[debug] [2020-05-07T16:14:15.113Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 07 May 2020 16:14:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'G:\Desktop\react-crud-firebase'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "G:\Desktop\react-crud-firebase\functions" for Cloud Functions...
+[debug] [2020-05-07T16:14:17.158Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-07T16:14:17.159Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-07T16:14:17.159Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-07T16:14:17.159Z] [worker-~diagnostic~-5a65ec1c-ee42-454a-bac6-3a349bfcbf64]: Assigning socketPath: \\?\pipe\G:\Desktop\react-crud-firebase\functions\16400 
+[debug] [2020-05-07T16:14:17.160Z] [worker-~diagnostic~-5a65ec1c-ee42-454a-bac6-3a349bfcbf64]: BUSY 
+[debug] [2020-05-07T16:14:17.618Z] [runtime-status] [16400] Functions runtime initialized. {"cwd":"G:\\Desktop\\react-crud-firebase\\functions","node_version":"12.4.0"} 
+[debug] [2020-05-07T16:14:17.618Z] [runtime-status] [16400] Disabled runtime features: undefined 
+[debug] [2020-05-07T16:14:17.622Z] [runtime-status] [16400] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"G:\\Desktop\\react-crud-firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-07T16:14:17.624Z] [runtime-status] [16400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"G:\\Desktop\\react-crud-firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-07T16:14:17.626Z] [runtime-status] [16400] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-07T16:14:17.993Z] [runtime-status] [16400] Checked functions.config() {"config":{}} 
+[debug] [2020-05-07T16:14:17.993Z] [runtime-status] [16400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"G:\\Desktop\\react-crud-firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-07T16:14:17.995Z] [runtime-status] [16400] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"G:\\Desktop\\react-crud-firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-05-07T16:14:17.995Z] [runtime-status] [16400] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"G:\\Desktop\\react-crud-firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-05-07T16:14:17.995Z] [runtime-status] [16400] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"G:\\Desktop\\react-crud-firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[debug] [2020-05-07T16:14:18.189Z] [runtime-status] [16400] initializeApp(DEFAULT) {"databaseURL":"https://crud-4e1a7.firebaseio.com","storageBucket":"crud-4e1a7.appspot.com","projectId":"crud-4e1a7","credential":{"implicit":false,"projectId":"crud-4e1a7","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQClJtPFWXBJzBMa\nN+GksCYXdhi33palgBUV/LBSp28uzNMMdSHYsBtiQSHZSChVXB9dHIqzZLY06hUr\nujRmzS/28TjjnMkwahvbYE3OUh+pdhTUYR8YCWYDSp/DGwDBZLXJKbL3TwXtKF6z\n2xnYhhC5hEO5LMgS8IBMI4MGleg30UfH+oVRuXrs3T+u/A8beNFRijEVAlUv9pHT\nRJ/+Oo2aZ6FotclycJglDSRmi1UEDa1NN7x4DGMkWC/H6CZ6Mcrg0mlz4eAy8Ydy\nsjZs6wNtKRUdOJDBIyRxtv/tJ/KbU84bXpcKCXCJl2mbFIGnB8AmiQVZiXlQN4qU\nGekwA+IJAgMBAAECggEAGrX97bRP1KUSDd0t5zyqMdni7jzXsVWBk43MAtebxD5S\ngCL4Yhs8Qpb1ijarzKqFVBedWJ3DA9SRr1ctdIGz7ppd23UXQSJYS7yhY5ZQEqYg\n1lINp7iVbEDcjWoc+X/NZbITL6vzRxk5apjW7viNVJlPeXAEaAkdPF3zVNRYEPbL\nHHAizU6SUV3cdAukaaGf0DdmLhws9NtGyRl/fV7XjsQOYeZrXUgP80FQyVANtdS9\n7FnAswZwe/OhAkeC9xTDfZPfPWxRtxMNoHia4weHYIKSHu60hX2vk2NpHPyRlVoU\nVe9i38tLeRkYIJ4BrmBbXUFVyqkuStIuFoxRu8nNRQKBgQDi5ku8SJeUveR5dMaR\n6Ns9LdvbXBrTFttW3mArNIWOWVwxATs6JWDLK6HPP+cHl2LgGmz1JgQ4SB++SUTQ\nQIfqQM+rDjnDhjWArZyRE8LPIp8BQffh0bdSwtca8384HsgZIkYx7miQhTqxweqM\ndnGepJOZgUOGl2hmaz/RY6FXbwKBgQC6VS+zh6uWyk+rH5VaKcA/8T0y3fwVdoLw\nNMAupYDvkKA1wcM50buaLPPcdz96ANXD7ALjzPgBdGv52W+U9QHAbj3Mjxh2X2oU\nMY9zTHWVpU+PEPhi5qQbZn4FBeM1ynmuYybyaklTpVoOV67yKV06SeK8GdyjyTqc\nR9Y2vf5iBwKBgDXPE6rlND1sAyDilqzHoiaSF4+f+iSRSRcCyZ+1Zu7pNjnQ5vDV\nKG1GPatepjVgq2wmGCzTBTEruYtw6MbSZukg0Z7pUr2RuGJ5yaWGIC7rMPYlZNnC\n2EziNA0KLeNrOVzsieUReu67Cb5aFHuXIz7SHMbMpuzmPzX6vTm0/PA1AoGBALeH\nhmd3fxwUAyqS/kGDlBenHldG7K+bPlcoLg8D9x5/vj2Urxz5JqYyFrQVRJF/1w2W\nHjaQQcr1CBFdCJmYRXRrYTVl0HtveYWQVzIComKWI+nPlkeb0xIl/oQmC2iFGRsa\nEFd/NuBLoosz9F4TPf9WnRwXAQrV/oPGAgmDU9brAoGBAJdIjKNamoiBAah1GrkB\ndOFZU+6dMDfrg6bTrs6vw6KAj77b8CbqGAtmev6CNc85++fMmttfoLT7z8nF6Lfo\n+E+TDUxqOIiMGW3RCPqEF/A2NhOmvHlzjO7CC2PY0dvHwlMbptKabXiFQZYgSxND\nICZFG+FeIL78bqjb0NznkbQY\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-nr34w@crud-4e1a7.iam.gserviceaccount.com","httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}} 
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[info] +  functions[api]: http function initialized (http://localhost:5000/crud-4e1a7/europe-west1/api).
+[debug] [2020-05-07T16:14:19.943Z] [worker-~diagnostic~-5a65ec1c-ee42-454a-bac6-3a349bfcbf64]: IDLE 
